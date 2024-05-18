@@ -1,0 +1,162 @@
+body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        .navbar,
+        .sidebar {
+            background-color: #212121;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold; /* Add this line to make the font thicker */
+            color: #fdfdfd;
+             /* Font color for page titles */
+}
+
+        .container-icon {
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 16px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #61afef;
+            font-weight: bold;
+            display: block;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background-color: #61afef;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        .h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: #61afef;
+        }
+
+        #toolbar {
+            margin-bottom: 10px;
+        }
+
+        #toolbar button {
+            margin-right: 5px;
+            background-color: #61afef;
+            color: white;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        #toolbar button:hover {
+            background-color: #1a1a1a;
+        }
+
+        #editor {
+            border: 1px solid #444c56;
+            padding: 10px;
+            min-height: 400px;
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+
+        pre.code-block {
+            background-color: #333;
+            color: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            overflow: auto;
+            white-space: pre-wrap;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #whois-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #whois-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #domain-input {
+            width: 60%;
+            padding: 8px;
+            border: 2px solid #61afef;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            transition: border-color 0.3s ease;
+        }
+
+        #domain-input:hover,
+        #domain-input:focus {
+            border-color: white;
+        }
+
+        .upload-button {
+            padding: 8px 16px;
+            border: 2px solid #61afef;
+            border-radius: 15px;
+            background-color: #61afef;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .upload-button:hover {
+            background-color: #1a1a1a;
+            border-color: white;
+        }
+
+        .round-button {
+            padding: 8px 16px;
+            border: 2px solid #61afef;
+            border-radius: 15px;
+            background-color: #61afef;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .round-button:hover {
+            background-color: #1a1a1a;
+            border-color: white;
+        }
