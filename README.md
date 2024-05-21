@@ -1,6 +1,6 @@
 # sintbox
 
-***Welcome to sintbox
+Welcome to sintbox
 
 Explore the world of sintbox, your versatile toolbox for various utilities. From geolocation and image analysis to text and code editing, sintbox has you covered.
 
