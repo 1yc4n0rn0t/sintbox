@@ -12,3 +12,5 @@ Whois: Perform WHOIS checks on domains to retrieve detailed information about re
 Unleash the power of sintbox and simplify your online tasks.
 
 📦 Enjoy exploring sintbox!
+
+<img src="sintbox.PNG">
