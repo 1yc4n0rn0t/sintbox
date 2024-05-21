@@ -1,6 +1,10 @@
 # sintbox
 
-Welcome to sintbox
+sintbox is free and open source web template for OSINT tools and cybersecurity. It comes with a template of Geolocation, a code editor, and Whois (API). 
+When configured correctley sintbox casn be a powerful osint tool in your investigations.
+
+```
+***Welcome to sintbox
 
 Explore the world of sintbox, your versatile toolbox for various utilities. From geolocation and image analysis to text and code editing, sintbox has you covered.
 
@@ -12,5 +16,5 @@ Whois: Perform WHOIS checks on domains to retrieve detailed information about re
 Unleash the power of sintbox and simplify your online tasks.
 
 📦 Enjoy exploring sintbox!
-
+```
 <img src="sintbox.PNG">
